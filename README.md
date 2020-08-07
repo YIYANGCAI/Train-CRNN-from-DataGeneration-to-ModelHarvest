@@ -83,12 +83,14 @@ Modify the parameters in `getLmdb.py`
 
 3. Train the model
 
-`python /contrib/crnn/crnn_main.py`
+`python ./crnn_main.py`
 
 For example:
 ```
-python ./crnn_main.py --trainroot ./datasets/YOUR_DATASET_NAME/train_lmdb --valroot ./datasets/YOUR_DATASET_NAME/test_lmdb --nh 128
+python ./crnn_main.py --trainroot ./datasets/YOUR_DATASET_NAME/train_lmdb --valroot ./datasets/YOUR_DATASET_NAME/test_lmdb --nh 256
 ``` 
+Take a look at the process of training:
+![training](./data/training.png)
 
 Run demo
 ----------------------------------
